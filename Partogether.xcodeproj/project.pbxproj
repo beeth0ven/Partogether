@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45CAE1BC1E321FDC0068BD9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CAE1BB1E321FDC0068BD9E /* AppDelegate.swift */; };
+		45CAE1BE1E321FDC0068BD9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CAE1BD1E321FDC0068BD9E /* ViewController.swift */; };
+		45CAE1C31E321FDC0068BD9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45CAE1C21E321FDC0068BD9E /* Assets.xcassets */; };
+		45CAE1D11E32222C0068BD9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45CAE1D01E32222C0068BD9E /* LaunchScreen.storyboard */; };
+		45CAE1D31E3222410068BD9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45CAE1D21E3222410068BD9E /* Main.storyboard */; };
+		F5A2F9D47A27E4E2E4BF9048 /* Pods_Partogether.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 758149FE480E1F100E247C79 /* Pods_Partogether.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		45CAE1B81E321FDC0068BD9E /* Partogether.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Partogether.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45CAE1BB1E321FDC0068BD9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45CAE1BD1E321FDC0068BD9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		45CAE1C21E321FDC0068BD9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45CAE1C71E321FDC0068BD9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45CAE1D01E32222C0068BD9E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45CAE1D21E3222410068BD9E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		758149FE480E1F100E247C79 /* Pods_Partogether.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Partogether.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFE2136D71C092C4237A215D /* Pods-Partogether.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Partogether.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Partogether/Pods-Partogether.debug.xcconfig"; sourceTree = "<group>"; };
+		FD262AD850E335EFC6D9078F /* Pods-Partogether.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Partogether.release.xcconfig"; path = "Pods/Target Support Files/Pods-Partogether/Pods-Partogether.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45CAE1B51E321FDC0068BD9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A2F9D47A27E4E2E4BF9048 /* Pods_Partogether.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45CAE1AF1E321FDC0068BD9E = {
+			isa = PBXGroup;
+			children = (
+				45CAE1BA1E321FDC0068BD9E /* Partogether */,
+				45CAE1B91E321FDC0068BD9E /* Products */,
+				507003221587D4D72C1F96C2 /* Pods */,
+				DE1695E0625112A234621082 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		45CAE1B91E321FDC0068BD9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45CAE1B81E321FDC0068BD9E /* Partogether.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45CAE1BA1E321FDC0068BD9E /* Partogether */ = {
+			isa = PBXGroup;
+			children = (
+				45CAE1CF1E3221420068BD9E /* Storyboards */,
+				45CAE1D41E32245E0068BD9E /* Frameworks+ */,
+				45CAE1CE1E32212C0068BD9E /* SupportingFiles */,
+			);
+			path = Partogether;
+			sourceTree = "<group>";
+		};
+		45CAE1CE1E32212C0068BD9E /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				45CAE1C21E321FDC0068BD9E /* Assets.xcassets */,
+				45CAE1D01E32222C0068BD9E /* LaunchScreen.storyboard */,
+				45CAE1C71E321FDC0068BD9E /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		45CAE1CF1E3221420068BD9E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				45CAE1BB1E321FDC0068BD9E /* AppDelegate.swift */,
+				45CAE1D21E3222410068BD9E /* Main.storyboard */,
+				45CAE1BD1E321FDC0068BD9E /* ViewController.swift */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		45CAE1D41E32245E0068BD9E /* Frameworks+ */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Frameworks+";
+			sourceTree = "<group>";
+		};
+		507003221587D4D72C1F96C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFE2136D71C092C4237A215D /* Pods-Partogether.debug.xcconfig */,
+				FD262AD850E335EFC6D9078F /* Pods-Partogether.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DE1695E0625112A234621082 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				758149FE480E1F100E247C79 /* Pods_Partogether.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45CAE1B71E321FDC0068BD9E /* Partogether */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45CAE1CA1E321FDC0068BD9E /* Build configuration list for PBXNativeTarget "Partogether" */;
+			buildPhases = (
+				605E4B8E7C1046D7DC04644D /* [CP] Check Pods Manifest.lock */,
+				45CAE1B41E321FDC0068BD9E /* Sources */,
+				45CAE1B51E321FDC0068BD9E /* Frameworks */,
+				45CAE1B61E321FDC0068BD9E /* Resources */,
+				F454AE891E939BFD11C36151 /* [CP] Embed Pods Frameworks */,
+				F1661F207C5CC155524C6EB8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Partogether;
+			productName = Partogether;
+			productReference = 45CAE1B81E321FDC0068BD9E /* Partogether.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45CAE1B01E321FDC0068BD9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = LuoJie;
+				TargetAttributes = {
+					45CAE1B71E321FDC0068BD9E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6BDKUNMM63;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 45CAE1B31E321FDC0068BD9E /* Build configuration list for PBXProject "Partogether" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45CAE1AF1E321FDC0068BD9E;
+			productRefGroup = 45CAE1B91E321FDC0068BD9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45CAE1B71E321FDC0068BD9E /* Partogether */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45CAE1B61E321FDC0068BD9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45CAE1D11E32222C0068BD9E /* LaunchScreen.storyboard in Resources */,
+				45CAE1C31E321FDC0068BD9E /* Assets.xcassets in Resources */,
+				45CAE1D31E3222410068BD9E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		605E4B8E7C1046D7DC04644D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F1661F207C5CC155524C6EB8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Partogether/Pods-Partogether-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F454AE891E939BFD11C36151 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Partogether/Pods-Partogether-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45CAE1B41E321FDC0068BD9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45CAE1BE1E321FDC0068BD9E /* ViewController.swift in Sources */,
+				45CAE1BC1E321FDC0068BD9E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		45CAE1C81E321FDC0068BD9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45CAE1C91E321FDC0068BD9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45CAE1CB1E321FDC0068BD9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFE2136D71C092C4237A215D /* Pods-Partogether.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6BDKUNMM63;
+				INFOPLIST_FILE = Partogether/SupportingFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.beeth0ven.Partogether;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		45CAE1CC1E321FDC0068BD9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD262AD850E335EFC6D9078F /* Pods-Partogether.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6BDKUNMM63;
+				INFOPLIST_FILE = Partogether/SupportingFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.beeth0ven.Partogether;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45CAE1B31E321FDC0068BD9E /* Build configuration list for PBXProject "Partogether" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45CAE1C81E321FDC0068BD9E /* Debug */,
+				45CAE1C91E321FDC0068BD9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45CAE1CA1E321FDC0068BD9E /* Build configuration list for PBXNativeTarget "Partogether" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45CAE1CB1E321FDC0068BD9E /* Debug */,
+				45CAE1CC1E321FDC0068BD9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45CAE1B01E321FDC0068BD9E /* Project object */;
+}
